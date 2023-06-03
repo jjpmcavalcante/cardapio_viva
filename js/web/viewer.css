@@ -18,6 +18,27 @@
   --highlight-selected-bg-color: rgba(0, 100, 0, 1);
 }
 
+ /* BOTÃO VOLTAR */
+ .btn_voltar{
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: rgb(233, 92, 39);
+  z-index: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 3px 10px rgba(26, 25, 25, 0.795);
+  opacity: 95%;
+}
+.btn_voltar img{
+    width: 50%;
+}
+
 @media screen and (forced-colors: active) {
   :root {
     --highlight-bg-color: Highlight;
